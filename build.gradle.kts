@@ -29,7 +29,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     shadow("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("io.insert-koin:koin-core:4.0.2")
     implementation("co.aikar:idb-core:1.0.0-SNAPSHOT")
